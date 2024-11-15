@@ -59,9 +59,9 @@ class Game {
         posY += cellSize * 0.8;
         context.fillText('v' + this.version, posX, posY);
         posY += cellSize * 0.8;
-        context.fillText('By Emilio González Montaña', posX, posY);
+        context.fillText('By Pruebas Unir', posX, posY);
         posY += cellSize * 0.8;
-        context.fillText('https://github.com/ociotec/tetris', posX, posY);
+        context.fillText('emitido por Ociotec', posX, posY);
 
         context.font = '' + cellSize + 'px Courier New';
         posY += cellSize * 1.5;
